@@ -81,6 +81,7 @@ body{
 .sale{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .sale>div{
     display: flex;
@@ -91,6 +92,7 @@ body{
     border-radius: 17px;
     transition: 0.3s;
     margin-bottom: 30px;
+    margin: 20px;
 }
 .sale>div .backfoot{
     width: 400px;
@@ -169,4 +171,5 @@ body{
 }
 .thu:hover{
     background-color:#D4A35F;
+
 }
