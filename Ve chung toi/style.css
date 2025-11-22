@@ -1,0 +1,139 @@
+*{
+    margin: 0 auto;
+    font-family: 'Indie Flower', cursive;
+}
+.dangnhap{
+    position: absolute;
+    top:40px;
+    left:10px;
+    background-color: white;
+    padding:10px;
+    border: solid,1px;
+    opacity: 0;
+    font-size: 20px;
+}
+.dangnhap a{
+    text-decoration: none;
+    color: black;
+}
+.head-right .fa-user:hover .dangnhap{
+    opacity: 1;
+}
+body{
+    background-image: url(ChatGPT\ Image\ Nov\ 8\,\ 2025\,\ 08_59_17\ AM.png);
+}
+.header{
+    background-color: #FFC720;
+    padding: 10px;
+}
+.khung{
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    align-items: center;
+    margin:5px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+.logo img{
+    max-width: 100px;
+    width: 50%;
+}
+.logo h2{
+    color: #D4A35F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head-mid{
+    display: flex;
+    gap: 30px;
+}
+.head-mid a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.head-right{
+    margin-right: 50px;
+    position: relative;
+}
+.head-right i{
+    font-size: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+}
+.main p{
+    font-size: 27px;
+}
+.content{
+    display: flex;
+    margin-bottom: 50px;    
+}
+.content .hinh1{
+    border:#FFC720,solid,10px;
+    width: 70%;
+    margin: 20px;
+}
+.content .hinh2{
+    border:#FFC720,solid,10px;
+    width: 30%;
+    margin:20px;
+}
+.tieude{
+    display: flex;
+    align-items: center;
+}
+.tieude img{
+    width: 100px;
+    margin: 0;
+}
+.tieude h2{
+    font-size: 100px;
+    font-weight: normal;
+    margin: 0;
+}
+.tieude2 {
+    display: flex;
+    align-items: center;
+}
+.tieude2 img{
+    width: 100px;
+    margin: 0;
+}
+.tieude2 h2{
+    font-size: 100px;
+    font-weight: normal;
+    margin-right:0 ;
+}
+.main a{
+    border:solid,1px;
+    border-radius: 17px;
+    padding: 30px;
+    background-color: #652621;
+    text-decoration: none;
+    color: #FFC720;
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer{
+    background-image: url(ChatGPT\ Image\ Nov\ 16\,\ 2025\,\ 09_07_32\ AM.png);
+    display: flex;
+    padding: 30px;
+}
+.footer h2{
+    margin-bottom:15px ;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
