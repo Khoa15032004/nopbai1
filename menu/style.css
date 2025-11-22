@@ -68,8 +68,8 @@ body{
 .main{
     display: flex;
     flex-direction: column;
-    margin-left: 400px;
-    margin-right:400px;
+    margin-left: 200px;
+    margin-right:200px;
 }
 .title{
     display: flex;
@@ -129,16 +129,16 @@ body{
     flex-wrap: wrap;
 }
 .sanpham>div{
-    flex: 1;
+    flex: 1 1 (33.333%);
     border-radius: 17px;
     background-color: white;
     border: solid,1px;
     display: flex;
     flex-direction: column;
     transition: 0.5s;
-    width: 250px;
+    width: 350px;
     margin-bottom: 10px;
-    margin: 20px;
+    margin: 15px;
 }
 .sanpham>div img{
     width: 100%;
@@ -227,7 +227,3 @@ body{
     text-decoration: none;
     color: white;
 }
-
-
-
-
