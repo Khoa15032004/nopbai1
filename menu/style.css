@@ -1,0 +1,229 @@
+*{
+    margin: 0 auto;
+    font-family: 'Indie Flower', cursive;
+}
+.header{
+    background-color: #FFC720;
+    padding: 10px;
+}
+.khung{
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    align-items: center;
+    margin:5px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+.logo img{
+    max-width: 100px;
+    width: 50%;
+}
+.logo h2{
+    color: #D4A35F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head-mid{
+    display: flex;
+    gap: 30px;
+}
+.head-mid a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.head-right{
+    margin-right: 50px;
+    position: relative;
+}
+.head-right i{
+    font-size: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.dangnhap{
+    position: absolute;
+    top:40px;
+    left:10px;
+    background-color: white;
+    padding:10px;
+    border: solid,1px;
+    opacity: 0;
+    font-size: 20px;
+}
+.dangnhap a{
+    text-decoration: none;
+    color: black;
+}
+.head-right .fa-user:hover .dangnhap{
+    opacity: 1;
+}
+body{
+    background-image: url(ChatGPT\ Image\ Nov\ 8\,\ 2025\,\ 08_59_17\ AM.png);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-right:400px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    margin:50px;
+}
+.loai{
+    display: flex;
+    gap: 200px;
+    margin-top: 20px;
+}
+.loai label{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+.menu-radio{
+    display: none;
+}
+.menu-radio:checked +label{
+    background-color: #652621;
+    color:#FFC720;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 17px;
+}
+.loaisanpham label{
+    cursor: pointer;
+    padding:20px;
+}
+.tool{
+    display: flex;
+    margin: 0px;
+    gap: 200px;
+}
+.tool select{
+    appearance: none;
+    padding:10px;
+    border-radius: 17px;
+}
+.timkiem{
+    position: relative;
+}
+.timkiem input{
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 17px;
+}
+.timkiem i{
+    position:absolute;
+    bottom: 15px;
+    left:5px;
+}
+.sanpham{
+    margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sanpham>div{
+    flex: 1 1 (33.333%);
+    border-radius: 17px;
+    background-color: white;
+    border: solid,1px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.sanpham>div img{
+    width: 100%;
+    height:100px;
+    border: solid,1px;
+    object-fit: cover;
+    border-radius: 17px;
+}
+.sanpham>div p{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.sanpham>div h3{
+    font-size: 20px;
+}
+.sanpham>div:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    background-color: #fff8e6;
+    transition: 0.5s;
+}
+.price{
+    display: flex;
+    gap:50px;
+    margin-bottom: 25px;
+    font-size: 10px;
+    align-items: center;
+}
+.price a{
+    background-color: #652621;
+    text-decoration: none;
+    color:#FFC720 ;
+    padding: 12px;
+    border-radius: 17px;
+}
+.phuluc{
+    display: flex;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding:0px;
+}
+.phuluc button{
+    background-color: white;
+    border-radius: 2px;
+    margin: 0px;
+    padding:10px;
+    padding-left: 15px;
+    padding-right:15px;
+    cursor: pointer;
+}
+.phuluc button:hover{
+    color:#FFC720;
+    background-color: #652621;
+}
+.phuluc button.macdinh{
+    color:#FFC720;
+    background-color: #652621;
+}
+.dathang a{
+    background-color: #652621;
+    text-decoration: none;
+    color:#FFC720 ;
+    padding: 12px;
+    border-radius: 17px;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.dathang{
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+.footer{
+    background-image: url(ChatGPT\ Image\ Nov\ 16\,\ 2025\,\ 09_07_32\ AM.png);
+    display: flex;
+    padding: 30px;
+    
+}
+.footer h2{
+    margin-bottom:15px ;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="khung">
+            <div class="logo">
+                <img src="logo.png" alt="">
+                <h2>DeCom</h2>
+            </div>
+            <div class="head-mid">
+                <a href="/Trang chu user/Trang chu user.html">Trang chủ</a>
+                <a href="/menu/index.html">Menu</a>
+                <a href="/uu dai/index.html">Ưu đãi</a>
+                <a href="/Ve chung toi/index.html">Giới thiệu</a>
+            </div>
+            <div class="head-right">
+                <i class="fa-solid fa-basket-shopping"></i>
+                <i class="fa-solid fa-user">
+                    <div class="dangnhap"><a href="/Nhap thong tin user/index.html">Đăng nhập</a></div>
+                </i>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="title">
+            <h1>Menu</h1>
+            <div class="loai">
+                <span class="loaisanpham">
+                    <input type="radio" id="item1" name="menu" class="menu-radio" checked>
+                    <label for="item1">Cơm</label>
+                </span>
+                <span class="loaisanpham">
+                    <input type="radio" id="item2" name="menu" class="menu-radio">
+                    <label for="item2">Canh</label>
+                </span>
+                <span class="loaisanpham">
+                    <input type="radio" id="item3" name="menu" class="menu-radio">
+                    <label for="item3">Nước</label>
+                </span>
+            </div>
+        </div>
+        <div class="tool">
+            <select name="" id="">
+                <option value="">--Các loại cơm--</option>
+                <option value="">Cơm gà</option>
+                <option value="">Cơm chiên</option>
+                <option value="">Cơm sườn</option>
+                <option value="">Cơm niêu</option>
+            </select>
+            <div class="timkiem">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Tìm kiếm món">
+            </div>
+        </div>
+        <div class="sanpham">
+            <div class="comga">
+                <img src="comga-bestseller.png" alt="">
+                <h3>Cơm gà xối mỡ</h3>
+                <p>Cơm nóng, gà giòn, mọng nước</p>
+                <div class="price">
+                    <h3>40.000đ</h3>
+                    <a href="">Thêm vào giỏ</a>
+                </div>
+            </div>
+            <div class="comsuon">
+                <img src="comsuonbicha-bestseller.png" alt="">
+                <h3>Cơm sườn bì chả</h3>
+                <p>Cơm tơi xốp, sườn mềm đầy hương vị</p>
+                <div class="price">
+                    <h3>37.000đ</h3>
+                    <a href="">Thêm vào giỏ</a>
+                </div>
+            </div>
+            <div class="comnieucakho">
+                <img src="comnieucakho.png" alt="">
+                <h3>Cơm niêu cá kho tộ</h3>
+                <p>Ăn 1 miếng nhớ quê cả ngày</p>
+                <div class="price">
+                    <h3>40.000đ</h3>
+                    <a href="">Thêm vào giỏ</a>
+                </div>
+            </div>
+            <div class="comchienhaisan">
+                <img src="comchienhaisan.png" alt="">
+                <h3>Cơm chiên hải sản</h3>
+                <p>Cơm chiên kèm hải sản giúp thêm phong phú</p>
+                <div class="price">
+                    <h3>40.000đ</h3>
+                    <a href="">Thêm vào giỏ</a>
+                </div>
+            </div>
+            <div class="comnieubaroi">
+                <img src="comnieubaroi.png" alt="">
+                <h3>Cơm niêu ba rọi</h3>
+                <p>Thịt ba rọi béo đậm vị ăn với cơm nóng hổi</p>
+                <div class="price">
+                    <h3>40.000đ</h3>
+                    <a href="">Thêm vào giỏ</a>
+                </div>
+            </div>
+            <div class="comchiendc">
+                <img src="comchienduongchau-bestseller.png" alt="">
+                <h3>Cơm chiên dương châu</h3>
+                <p>Món bình dân nhưng rất chất lượng</p>
+                <div class="price">
+                    <h3>30.000đ</h3>
+                    <a href="">Thêm vào giỏ</a>
+                </div>
+            </div>
+        </div>
+        <div class="phuluc">
+            <button class="macdinh">1</button>
+            <button>2</button>
+            <button>...</button>
+            <button>4</button>
+        </div>
+        <div class="dathang">
+            <a href="/thanhtoan/index.html">Đặt hàng ngay</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="contact">
+            <h2>Hotline đặt hàng 999.***</h2>
+            <h2>DeCom@mail.com</h2>
+            <a href="">Về chúng tôi</a>
+        </div>
+        <div class="info">
+            <h2>©DeCom</h2>
+            <h2>Địa chỉ: 78 ABC, quận 6</h2>
+            <a href="">Liên hệ</a>
+        </div>
+    </div>
+</body>
+</html>
