@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Indie Flower' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="khung">
+            <div class="logo">
+                <img src="logo.png" alt="">
+                <h1>Decom</h1>
+            </div>
+            <div class="hello">
+                <h1>Xin chào Admin</h1>
+            </div>
+            <div class="tool">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Tìm kiếm">
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="fixed">
+            <h2>Danh mục</h2>
+            <a href="#giaodien">Chỉnh giao diện</a>
+            <a href="#chinhmon">Chỉnh món</a>
+            <a href="#quanlykhach">Quản lý người dùng</a>
+            <a href="#quanlydonhang">Đơn hàng</a>
+            <a href="#quanlynhanvien">Nhân viên</a>
+        </div>
+        <div class="danhmuc">
+            <div id="giaodien" class="giaodien">
+                <h2>Giao diện</h2>
+                <div class="chinh">
+                    <div class="background">Thay đổi màu nền</div>
+                    <div class="uudai">Thay đổi ưu đãi</div>
+                    <div class="thongtin">Thay đổi thông tin</div>
+                </div>
+            </div>
+            <div id="chinhmon" class="chinhmon">
+                <h2>Chỉnh món</h2>
+                <div class="tool">
+                    <label for="">Thêm món</label>
+                    <div class="timkiem">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Tìm kiếm món">
+                    </div>
+                </div>
+                <table>
+                    <thead>
+                        <th>Tên món</th>
+                        <th>Mô tả</th>
+                        <th>Loại</th>
+                        <th>Giá tiền</th>
+                        <th>Hình ảnh</th>
+                        <th></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cơm sườn bì chả</td>
+                            <td>Cơm tơi xốp, sườn mềm đầy hương vị</td>
+                            <td>Cơm</td>
+                            <td>37.000đ</td>
+                            <td><a href="">suonbicha.jpg</a></td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>Cơm gà xối mỡ</td>
+                            <td>Cơm nóng, gà mọng nước, da giòn</td>
+                            <td>Cơm</td>
+                            <td>40.000đ</td>
+                            <td><a href="">gaxoimo.jpg</a></td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>Cơm niêu cá kho tộ</td>
+                            <td>Ăn 1 miếng nhớ quê ngay</td>
+                            <td>Cơm</td>
+                            <td>40.000đ</td>
+                            <td><a href="">nieucakho.jpg</a></td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>Cơm chiên hải sản</td>
+                            <td>Cơm chiên kèm hải sản giúp thêm phong phú</td>
+                            <td>Cơm</td>
+                            <td>40.000đ</td>
+                            <td><a href="">chienhs.jpg</a></td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>Cơm niêu ba rọi</td>
+                            <td>Thịt ba rọi béo đậm vị ăn với cơm nóng</td>
+                            <td>Cơm</td>
+                            <td>40.000đ</td>
+                            <td><a href="">nieubaroi.jpg</a></td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>Cơm chiên dương châu</td>
+                            <td>Món bình dân nhưng rất chất lượng</td>
+                            <td>Cơm</td>
+                            <td>30.000đ</td>
+                            <td><a href="">chienDC.jpg</a></td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>Canh rau củ</td>
+                            <td>Canh ngon thanh mát</td>
+                            <td>Canh</td>
+                            <td>7.000đ</td>
+                            <td><a href="">canhRC.jpg</a></td>
+                            <td>...</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="phuluc">
+                    <button class="macdinh">1</button>
+                    <button>2</button>
+                    <button>...</button>
+                    <button>4</button>
+                </div>
+            </div>
+            <div id="quanlykhach" class="quanlykhach">
+                <h2>THÔNG TIN KHÁCH HÀNG</h2>
+                <div class="timkhach">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Tìm kiếm khách">
+                </div>
+                <table>
+                    <thead>
+                        <th>Họ và tên</th>
+                        <th>SĐT</th>
+                        <th>Email</th>
+                        <th>Địa chỉ</th>
+                        <th></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Nguyễn Minh Khang</td>
+                            <td>091 111 1111</td>
+                            <td>NMK@gmail.com</td>
+                            <td>ABC quận 1</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>Trần Quốc Huy</td>
+                            <td>091 111 1112</td>
+                            <td>TQH@gmail.com</td>
+                            <td>DEF quận 2</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>Lê Gia Bảo</td>
+                            <td>091 111 1113</td>
+                            <td>LGB@gmail.com</td>
+                            <td>GHI quận 3</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>Phạm Hoàng Nam</td>
+                            <td>091 111 1114</td>
+                            <td>PHN@gmail.com</td>
+                            <td>JKL quận 4</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>Võ Khánh Duy</td>
+                            <td>091 111 1115</td>
+                            <td>VKD@gmail.com</td>
+                            <td>MNO quận 5</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>Đặng Anh Khoa</td>
+                            <td>091 111 1116</td>
+                            <td>DAK@gmail.com</td>
+                            <td>PQR quận 6</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>Huỳnh Tấn Phát</td>
+                            <td>091 111 1117</td>
+                            <td>HTP@gmail.com</td>
+                            <td>STU quận 7</td>
+                            <td>...</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="phuluc">
+                    <button class="macdinh">1</button>
+                    <button>2</button>
+                    <button>...</button>
+                    <button>4</button>
+                </div>
+            </div>
+            <div id="quanlydonhang" class="quanlydonhang">
+                <h2>QUẢN LÝ ĐƠN HÀNG</h2>
+                <div class="muc">
+                    <a href="#thuchien">Đơn hàng đang thực hiện</a>
+                    <a href="#hoanthanh">Đơn hàng đã hoàn thành</a>
+                </div>
+                <div class="title">
+                    <h3>Đơn đang thực hiện</h3>
+                    <div class="timdon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Tìm kiếm đơn">
+                    </div>
+                </div>
+                <table id="thuchien">
+                    <thead>
+                        <th></th>
+                        <th>Mã đơn</th>
+                        <th>Thời gian</th>
+                        <th>Khách hàng</th>
+                        <th>Món</th>
+                        <th>Tổng tiền</th>
+                        <th>Hình thức thanh toán</th>
+                        <th>Thanh toán</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>#K123</td>
+                            <td>15:03:04 <br> Ngày 04/12/2025</td>
+                            <td>Nguyễn Văn A <br>
+                                03621234567 <br>
+                                NVA@gmail.com <br>
+                                ABC quận 1
+                            </td>
+                            <td>1* Cơm sườn <br>
+                                2* Canh rau
+                            </td>
+                            <td>60.000đ</td>
+                            <td>Chuyển khoản</td>
+                            <td>Chưa thanh toán</td>
+                            <td>...</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="title">
+                    <h3>Đơn đã hoàn thành</h3>
+                    <div class="timdon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Tìm kiếm đơn">
+                    </div>
+                </div>
+                <table id="hoanthanh">
+                    <thead>
+                        <th></th>
+                        <th>Mã đơn</th>
+                        <th>Thời gian</th>
+                        <th>Khách hàng</th>
+                        <th>Món</th>
+                        <th>Tổng tiền</th>
+                        <th>Hình thức thanh toán</th>
+                        <th>Thanh toán</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>#K124</td>
+                            <td>10:30:00 <br> Ngày 04/09/2025</td>
+                            <td>Nguyễn Văn B <br>
+                                0361865423 <br>
+                                NVB@gmail.com <br>
+                                DEF quận 1
+                            </td>
+                            <td>1* Cơm gà xối mỡ <br>
+                                2* Nước mía
+                            </td>
+                            <td>54.000đ</td>
+                            <td>Chuyển khoản</td>
+                            <td>Đã thanh toán</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>#K125</td>
+                            <td>12:40:15 <br> Ngày 21/10/2025</td>
+                            <td>Nguyễn Văn C <br>
+                                0361263849 <br>
+                                NVC@gmail.com <br>
+                                GHI quận 1
+                            </td>
+                            <td>1* Cơm niêu cá kho <br>
+                                2* Cơm thêm
+                            </td>
+                            <td>60.000đ</td>
+                            <td>Tiền mặt</td>
+                            <td>Đã huỷ</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>#K126</td>
+                            <td>18:06:50 <br> Ngày 17/02/2025</td>
+                            <td>Nguyễn Văn C <br>
+                                0364793145 <br>
+                                NVC@gmail.com <br>
+                                JKL quận 1
+                            </td>
+                            <td>1* Cơm chiên hải sản
+                            </td>
+                            <td>40.000đ</td>
+                            <td>Momo</td>
+                            <td>Đã thanh toán</td>
+                            <td>...</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="phuluc">
+                    <button class="macdinh">1</button>
+                    <button>2</button>
+                    <button>...</button>
+                    <button>4</button>
+                </div>
+            </div>
+            <div id="quanlynhanvien" class="quanlynhanvien">
+                <h2>NHÂN VIÊN</h2>
+                <table>
+                    <thead>
+                        <th>Mã NV</th>
+                        <th>Họ và tên</th>
+                        <th>Ngày sinh</th>
+                        <th>Chức vụ</th>
+                        <th>Lương</th>
+                        <th>Giới tính</th>
+                        <th></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>001</td>
+                            <td>Võ Tuấn Kiệt</td>
+                            <td>12/03/1998</td>
+                            <td>Phục vụ</td>
+                            <td>2.000.000đ</td>
+                            <td>Nam</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>002</td>
+                            <td>Đinh Khánh Linh</td>
+                            <td>27/11/1985</td>
+                            <td>Quản lý</td>
+                            <td>7.000.000đ</td>
+                            <td>Nữ</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>003</td>
+                            <td>Trần Bảo Ngọc</td>
+                            <td>05/09/1992</td>
+                            <td>Phụ bếp</td>
+                            <td>3.500.000đ</td>
+                            <td>Nữ</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>004</td>
+                            <td>Lê Hồng Phúc</td>
+                            <td>18/01/2000</td>
+                            <td>Phục vụ</td>
+                            <td>2.000.000đ</td>
+                            <td>Nam</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>005</td>
+                            <td>Đinh Khánh Linh</td>
+                            <td>30/07/1983</td>
+                            <td>Phụ bếp</td>
+                            <td>3.500.000đ</td>
+                            <td>Nữ</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>006</td>
+                            <td>Lâm Quang Huy</td>
+                            <td>09/04/1987</td>
+                            <td>Bếp trưởng</td>
+                            <td>5.000.000đ</td>
+                            <td>Nam</td>
+                            <td>...</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="phuluc">
+                    <button class="macdinh">1</button>
+                    <button>2</button>
+                    <button>...</button>
+                    <button>4</button>
+                </div>
+            </div>
+            <div class="xacnhan">
+                <button>Xác Nhận</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
