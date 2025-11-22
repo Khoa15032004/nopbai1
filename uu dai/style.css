@@ -1,0 +1,172 @@
+*{
+    margin: 0 auto;
+    font-family: 'Indie Flower', cursive;
+}
+.header{
+    background-color: #FFC720;
+    padding: 10px;
+}
+.khung{
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    align-items: center;
+    margin:5px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+.logo img{
+    max-width: 100px;
+    width: 50%;
+}
+.logo h2{
+    color: #D4A35F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head-mid{
+    display: flex;
+    gap: 30px;
+}
+.head-mid a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.head-right{
+    margin-right: 50px;
+    position: relative;
+}
+.head-right i{
+    font-size: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.dangnhap{
+    position: absolute;
+    top:40px;
+    left:10px;
+    background-color: white;
+    padding:10px;
+    border: solid,1px;
+    opacity: 0;
+    font-size: 20px;
+}
+.dangnhap a{
+    text-decoration: none;
+    color: black;
+}
+.head-right .fa-user:hover .dangnhap{
+    opacity: 1;
+}
+body{
+    background-image: url(ChatGPT\ Image\ Nov\ 8\,\ 2025\,\ 08_59_17\ AM.png);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-right:100px;
+}
+.title{
+    margin: 100px;
+}
+.title h1{
+    font-size: 50px;
+}
+.sale{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sale>div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    border: solid,1px;
+    border-radius: 17px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+.sale>div .backfoot{
+    width: 400px;
+    height: 100px;
+    border-radius: 0 0 17px 17px;
+}
+.sale>div .food{
+    width: 70%;
+    position: absolute;
+    top:220px;
+    left:70px;
+    height: 280px;
+}
+.block{
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.block h3{
+    font-size: 40px;
+    font-weight: unset;
+}
+.block p{
+    text-decoration: line-through;
+    font-size: 20px;
+}
+.block .day{
+    color: #652621;
+}
+.block .price{
+    color: red;
+}
+.footer{
+    margin-top: 100px;
+    background-image: url(ChatGPT\ Image\ Nov\ 16\,\ 2025\,\ 09_07_32\ AM.png);
+    display: flex;
+    padding: 30px;
+}
+.footer h2{
+    margin-bottom:15px ;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.thu .dathang {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:#652621;
+    color:#FFC720;
+    padding: 10px 20px;
+    border-radius: 17px;
+    opacity: 0;
+    transition: 0.3s;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.thu:hover img{
+    opacity: 0;
+}
+.thu:hover .block{
+    opacity:0;
+}
+
+.thu:hover .dathang {
+    opacity: 1;
+}
+.thu:hover{
+    background-color:#D4A35F;
+}
